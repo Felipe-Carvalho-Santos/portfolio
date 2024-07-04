@@ -1,49 +1,13 @@
-/* Menu */
-.contatos-container{
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-}
-
-.menu-contatos{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-    margin: 50px;
-    justify-content: center;
-    text-align: center;
-}
-
-.name-menu-contatos{
-    font-family: "Teachers", sans-serif;
-    width: 8%;
-    padding: 5px;
-    font-size: 22px;
-    text-align: center;
-    text-decoration: none;
-    color: #FFF;
-    cursor: pointer;
-    justify-content: space-between;
-    display: flex; 
-    align-items: center; 
-    
-}
-
-.name-menu-contatos:hover{
-    transform: scale(1.2);
-    color: #bdbaff;
-
-}
-
-.menu-contatos ion-icon {
-    color: #bdbaff;
-}
-
 /* CONTATOS */
+.title-section{
+    color: #EE4C3D;
+    font-size: 45px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+
 .box-contatos{
     width: 100%;
     display: flex;
@@ -59,7 +23,7 @@
     align-items: center;
     text-align: center;
     border: 2px solid #2b2b2b;
-    box-shadow: 1px 1px 1px #bdbaff;
+    box-shadow: 1px 1px 1px #EE4C3D;
     margin: 20px;
     word-wrap: break-word;
 }
@@ -89,35 +53,23 @@
 
 /* RESPONSIVE */
 @media screen and (max-width: 768px) {
-    .menu-contatos {
-        margin: 30px; 
-    }
 
     .contatos {
         width: 40%; 
         margin: 15px; 
     }
 
-    .name-menu-contatos {
-        width: 15%; 
-    }
 
     
 }
 
 
 @media screen and (max-width: 480px) {
-    .menu-contatos {
-        margin: 20px;
-    }
-
+   
     .contatos {
         width: 90%; 
         margin: 10px; 
     }
 
-    .name-menu-contatos {
-        width: auto; 
-    }
-
+    
 }

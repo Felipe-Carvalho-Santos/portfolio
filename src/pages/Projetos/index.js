@@ -13,14 +13,6 @@ import { Link } from 'react-router-dom';
 function Projetos() {
     return (
         <div className='projetos-container'>
-             <div className='menu-projetos'>
-                <Link to="/" className='name-menu-projetos'><ion-icon name="home-outline"></ion-icon>Home</Link>
-                <Link to="/Sobre" className='name-menu-projetos'><ion-icon name="person-outline"></ion-icon>Sobre mim</Link>
-                <Link to="/habilidades" className='name-menu-sobre'><ion-icon name="rocket-outline"></ion-icon>Habilidades</Link>
-                <Link to="/skills" className='name-menu-projetos'><ion-icon name="bulb-outline"></ion-icon>Soft Skills</Link>
-                <Link to="/certificados" className='name-menu-projetos'><ion-icon name="ribbon-outline"></ion-icon>Certificados</Link>
-                <Link to="/contatos" className='name-menu-projetos'><ion-icon name="chatbox-ellipses-outline"></ion-icon>Contato</Link>
-            </div>
             <h1 className='title-section'>Projetos</h1>
             <div className='container-projetos'>
                 <div className='projeto'>

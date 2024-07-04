@@ -1,49 +1,14 @@
-/* Menu */
-.skills-container{
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-}
-
-.menu-skills{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-    margin: 50px;
-    justify-content: center;
-    text-align: center;
-}
-
-.name-menu-skills{
-    font-family: "Teachers", sans-serif;
-    width: 8%;
-    padding: 5px;
-    font-size: 22px;
-    text-align: center;
-    text-decoration: none;
-    color: #FFF;
-    cursor: pointer;
-    justify-content: space-between;
-    display: flex; 
-    align-items: center; 
-    
-}
-
-.name-menu-skills:hover{
-    transform: scale(1.2);
-    color: #bdbaff;
-
-}
-
-.menu-skills ion-icon {
-    color: #bdbaff;
-}
 
 /* Habilidades */
+.title-section{
+    color: #EE4C3D;
+    font-size: 45px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+
 .box-skills{
     width: 100%;
     display: flex;
@@ -59,7 +24,7 @@
     width: 30%;
     height: 300px;
     margin: 20px 40px;
-    border: 3px solid #bdbaff;
+    border: 3px solid #EE4C3D;
     border-radius: 10%;
     align-items: center;
     justify-content: center;
@@ -85,13 +50,6 @@
 
 /* RESPONSIVE */
 @media screen and (max-width: 768px) {
-    .menu-skills {
-        margin: 30px; 
-    }
-
-    .name-menu-skills {
-        width: 15%; 
-    }
 
     .box {
         width: 45%; 
@@ -102,13 +60,6 @@
 
 
 @media screen and (max-width: 480px) {
-    .menu-skills {
-        margin: 20px;
-    }
-
-    .name-menu-skills {
-        width: auto; 
-    }
     
     .box {
         width: 100%; 

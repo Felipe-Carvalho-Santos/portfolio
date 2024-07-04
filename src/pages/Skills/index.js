@@ -6,14 +6,6 @@ import './skills.css';
 function Skills() {
     return (
         <div className='skills-container'>
-             <div className='menu-skills'>
-                <Link to="/" className='name-menu-skills'><ion-icon name="home-outline"></ion-icon>Home</Link>
-                <Link to="/Sobre" className='name-menu-skills'><ion-icon name="person-outline"></ion-icon>Sobre mim</Link>
-                <Link to="/habilidades" className='name-menu'><ion-icon name="rocket-outline"></ion-icon>Habilidades</Link>
-                <Link to="/projetos" className='name-menu-skills'><ion-icon name="code-slash-outline"></ion-icon>Projetos</Link>
-                <Link to="/certificados" className='name-menu-skills'><ion-icon name="ribbon-outline"></ion-icon>Certificados</Link>
-                <Link to="/contatos" className='name-menu-skills'><ion-icon name="chatbox-ellipses-outline"></ion-icon>Contato</Link>
-            </div>
                 <h1 className='title-section'>Soft Skills</h1>
                 <div className='box-skills'>
                     <div className='box'>

@@ -7,14 +7,7 @@ import { Link } from 'react-router-dom';
 function Certificados() {
     return (
         <div className='certificados-container'>
-             <div className='menu-certificados'>
-                <Link to="/" className='name-menu-certificados'><ion-icon name="home-outline"></ion-icon>Home</Link>
-                <Link to="/Sobre" className='name-menu-certificados'><ion-icon name="person-outline"></ion-icon>Sobre mim</Link>
-                <Link to="/habilidades" className='name-menu-sobre'><ion-icon name="rocket-outline"></ion-icon>Habilidades</Link>
-                <Link to="/skills" className='name-menu-certificados'><ion-icon name="bulb-outline"></ion-icon>Soft Skills</Link>
-                <Link to="/projetos" className='name-menu-certificados'><ion-icon name="code-slash-outline"></ion-icon>Projetos</Link>
-                <Link to="/contatos" className='name-menu-certificados'><ion-icon name="chatbox-ellipses-outline"></ion-icon>Contato</Link>
-            </div>
+            <h1 className='title-section'>Certificados</h1>
             <div className='box-certificados'>
             <div className='certificado'>
                     <div className='description-certificado'>

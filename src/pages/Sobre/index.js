@@ -7,14 +7,6 @@ import felipefoto from './felipefoto.png';
 function Sobre() {
     return (
         <div className='sobre-container'>
-             <div className='menu-sobre'>
-                <Link to="/" className='name-menu-sobre'><ion-icon name="home-outline"></ion-icon>Home</Link>
-                <Link to="/habilidades" className='name-menu-sobre'><ion-icon name="rocket-outline"></ion-icon>Habilidades</Link>
-                <Link to="/skills" className='name-menu-sobre'><ion-icon name="bulb-outline"></ion-icon>Soft Skills</Link>
-                <Link to="/projetos" className='name-menu-sobre'><ion-icon name="code-slash-outline"></ion-icon>Projetos</Link>
-                <Link to="/certificados" className='name-menu-sobre'><ion-icon name="ribbon-outline"></ion-icon>Certificados</Link>
-                <Link to="/contatos" className='name-menu-sobre'><ion-icon name="chatbox-ellipses-outline"></ion-icon>Contato</Link>
-            </div>
                 <h1 className='title-section'>Sobre mim</h1>
                 <div className='header-sobre'>
                     <h2 className='title-sobre'>Olá! eu sou o Felipe Carvalho 😁</h2>

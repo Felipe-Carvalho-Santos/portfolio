@@ -6,14 +6,6 @@ import './habilidades.css';
 function Habilidades() {
     return (
         <div className='habilidades-container'>
-             <div className='menu-habilidades'>
-                <Link to="/" className='name-menu-habilidades'><ion-icon name="home-outline"></ion-icon>Home</Link>
-                <Link to="/Sobre" className='name-menu-habilidades'><ion-icon name="person-outline"></ion-icon>Sobre mim</Link>
-                <Link to="/skills" className='name-menu-habilidades'><ion-icon name="bulb-outline"></ion-icon>Soft Skills</Link>
-                <Link to="/projetos" className='name-menu-habilidades'><ion-icon name="code-slash-outline"></ion-icon>Projetos</Link>
-                <Link to="/certificados" className='name-menu-habilidades'><ion-icon name="ribbon-outline"></ion-icon>Certificados</Link>
-                <Link to="/contatos" className='name-menu-habilidades'><ion-icon name="chatbox-ellipses-outline"></ion-icon>Contato</Link>
-            </div>
                 <h1 className='title-section'>Habilidades</h1>
                 <div className='box-habilidades'>
                     <div className='habilidades'>

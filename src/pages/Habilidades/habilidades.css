@@ -1,49 +1,14 @@
-/* Menu */
-.habilidades-container{
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-}
-
-.menu-habilidades{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-    margin: 50px;
-    justify-content: center;
-    text-align: center;
-}
-
-.name-menu-habilidades{
-    font-family: "Teachers", sans-serif;
-    width: 8%;
-    padding: 5px;
-    font-size: 22px;
-    text-align: center;
-    text-decoration: none;
-    color: #FFF;
-    cursor: pointer;
-    justify-content: space-between;
-    display: flex; 
-    align-items: center; 
-    
-}
-
-.name-menu-habilidades:hover{
-    transform: scale(1.2);
-    color: #bdbaff;
-
-}
-
-.menu-habilidades ion-icon {
-    color: #bdbaff;
-}
 
 /* Habilidades */
+.title-section{
+    color: #EE4C3D;
+    font-size: 45px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+
 .box-habilidades{
     width: 100%;
     display: flex;
@@ -61,7 +26,7 @@
 }
 
 .habilidades{
-    font-size: 150px;
+    font-size: 100px;
     padding: 10px;
     margin: 0 10px;
     width: 100%;
@@ -112,13 +77,14 @@
     font-size: 1.6em;
     padding: 5px;
     border-radius: 3%;
-    opacity: 0.6;
+    opacity: 0.4;
     transition: 0.3s;
     background-color: #FFF;
 }
 
 .name-habilidade p:hover{
-    background-color: #b2b2b3;
+    background-color: #FFF;
+    opacity: 0.7;
 }
 
 .text-habilidade{
@@ -132,19 +98,12 @@
 }
 
 #habilidades-complementares{
-    color: #bdbaff;
+    color: #EE4C3D;
     font-weight: bold;
 }
 
 /* RESPONSIVE */
 @media screen and (max-width: 768px) {
-    .menu-habilidades {
-        margin: 30px; 
-    }
-
-    .name-menu-habilidades {
-        width: 15%; 
-    }
 
     .habilidades {
         font-size: 80px; 
@@ -168,13 +127,7 @@
 
 
 @media screen and (max-width: 480px) {
-    .menu-habilidades {
-        margin: 20px;
-    }
 
-    .name-menu-habilidades {
-        width: auto; 
-    }
 
     .habilidades {
         font-size: 60px;

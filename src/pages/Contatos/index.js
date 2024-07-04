@@ -7,14 +7,6 @@ import { Link } from 'react-router-dom';
 function Contatos() {
     return (
         <div className='contatos-container'>
-             <div className='menu-contatos'>
-                <Link to="/" className='name-menu-contatos'><ion-icon name="home-outline"></ion-icon>Home</Link>
-                <Link to="/Sobre" className='name-menu-contatos'><ion-icon name="person-outline"></ion-icon>Sobre mim</Link>
-                <Link to="/habilidades" className='name-menu-sobre'><ion-icon name="rocket-outline"></ion-icon>Habilidades</Link>
-                <Link to="/skills" className='name-menu-contatos'><ion-icon name="bulb-outline"></ion-icon>Soft Skills</Link>
-                <Link to="/projetos" className='name-menu-contatos'><ion-icon name="code-slash-outline"></ion-icon>Projetos</Link>
-                <Link to="/certificados" className='name-menu-contatos'><ion-icon name="ribbon-outline"></ion-icon>Certificados</Link>
-            </div>
             <h1 className='title-section'>Contatos</h1>
             <div className='box-contatos'>
                 <div className='contatos'>

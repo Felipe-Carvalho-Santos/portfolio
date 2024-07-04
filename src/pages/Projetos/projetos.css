@@ -1,49 +1,14 @@
-/* Menu */
-.projetos-container{
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-}
-
-.menu-projetos{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-    margin: 50px;
-    justify-content: center;
-    text-align: center;
-}
-
-.name-menu-projetos{
-    font-family: "Teachers", sans-serif;
-    width: 8%;
-    padding: 5px;
-    font-size: 22px;
-    text-align: center;
-    text-decoration: none;
-    color: #FFF;
-    cursor: pointer;
-    justify-content: space-between;
-    display: flex; 
-    align-items: center; 
-    
-}
-
-.name-menu-projetos:hover{
-    transform: scale(1.2);
-    color: #bdbaff;
-
-}
-
-.menu-projetos ion-icon {
-    color: #bdbaff;
-}
 
 /* PROJETOS */
+.title-section{
+    color: #EE4C3D;
+    font-size: 45px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+
 .container-projetos{
     width: 100%;
     display: flex;
@@ -155,13 +120,6 @@
 
 /* RESPONSIVE */
 @media screen and (max-width: 768px) {
-    .menu-projetos {
-        margin: 30px; 
-    }
-
-    .name-menu-projetos {
-        width: 15%; 
-    }
 
     .projeto {
         width: 300px;
@@ -177,13 +135,6 @@
 
 
 @media screen and (max-width: 480px) {
-    .menu-projetos {
-        margin: 20px;
-    }
-
-    .name-menu-projetos {
-        width: auto; 
-    }
 
     .projeto {
         width: 250px; 

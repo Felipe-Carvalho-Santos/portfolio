@@ -1,8 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import Header from './components/Header';
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
-import Footer from './components/Footer';
 import Habilidades from './pages/Habilidades';
 import Skills from './pages/Skills';
 import Projetos from './pages/Projetos';
@@ -12,7 +11,7 @@ import Contatos from './pages/Contatos';
 function RoutesApp(){
     return(
         <BrowserRouter>
-        
+        <Header/>
         <Routes>
             <Route path="/" element={ <Home/>}></Route>
             <Route path="/Sobre" element={ <Sobre/>}></Route>
@@ -22,7 +21,7 @@ function RoutesApp(){
             <Route path="/Certificados" element={ <Certificados/>}></Route>
             <Route path="/Contatos" element={ <Contatos/>}></Route>
         </Routes>
-        <Footer/>
+        
         </BrowserRouter>
     );
 }
