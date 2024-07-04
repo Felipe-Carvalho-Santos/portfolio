@@ -1,0 +1,154 @@
+/* Menu */
+.sobre-container{
+    width: 100%;
+    height: 110vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.menu-sobre{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: -5%;
+    justify-content: center;
+    text-align: center;
+}
+
+.name-menu-sobre{
+    font-family: "Teachers", sans-serif;
+    width: 8%;
+    padding: 5px;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+    justify-content: space-between;
+    display: flex; 
+    align-items: center; 
+    
+}
+
+.name-menu-sobre:hover{
+    transform: scale(1.2);
+    color: #bdbaff;
+
+}
+
+.menu-sobre ion-icon {
+    color: #bdbaff;
+}
+
+
+/* Sobre mim */
+.title-section{
+    color: #bdbaff;
+    font-size: 45px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.header-sobre{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    
+}
+
+.foto{
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid #bdbaff;
+    box-shadow: 3px 3px 3px #bdbaff;
+}
+
+.title-sobre{
+    color: #FFF;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-sobre{
+    color: #FFF;
+    width: 80%;
+    font-size: 18px;
+    line-height: 1.5;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+    .menu-sobre {
+        margin: 30px; 
+    }
+
+    .name-menu-sobre {
+        width: 15%; 
+    }
+
+    .sobre-container {
+        height: auto; 
+    }
+
+    .header-sobre {
+        width: 90%;
+    }
+
+    .foto {
+        margin-top: 20px;
+        width: 150px; 
+    }
+
+    .title-section {
+        font-size: 36px; 
+        margin: 30px; 
+    }
+
+    .description-sobre {
+        width: 90%; 
+        margin: 30px; 
+    }
+
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    .menu-sobre {
+        margin: 20px;
+    }
+
+    .name-menu-sobre {
+        width: auto; 
+    }
+
+    .header-sobre {
+        flex-direction: column; 
+        width: 100%;
+    }
+
+    .foto {
+        width: 120px; 
+    }
+
+    .title-section {
+        font-size: 30px; 
+        margin: 20px; 
+    }
+
+    .description-sobre {
+        width: 100%; 
+        margin: 20px;
+    }
+
+}

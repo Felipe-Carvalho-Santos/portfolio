@@ -1,0 +1,196 @@
+/* Menu */
+.habilidades-container{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.menu-habilidades{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.name-menu-habilidades{
+    font-family: "Teachers", sans-serif;
+    width: 8%;
+    padding: 5px;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+    justify-content: space-between;
+    display: flex; 
+    align-items: center; 
+    
+}
+
+.name-menu-habilidades:hover{
+    transform: scale(1.2);
+    color: #bdbaff;
+
+}
+
+.menu-habilidades ion-icon {
+    color: #bdbaff;
+}
+
+/* Habilidades */
+.box-habilidades{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.box-habilidades{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidades{
+    font-size: 150px;
+    padding: 10px;
+    margin: 0 10px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.habilidades ion-icon{
+    padding: 0 30px;
+}
+
+#js{
+    color: #E8D44D;
+}
+
+#react{
+    color: #5ED3F3;
+}
+
+#html{
+    color: #E96228;
+}
+
+#css{
+    color: #2DA5D6;
+}
+
+.description-habilidades{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.name-habilidade{
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding:  10px;
+}
+
+.name-habilidade p {
+    margin: 0;
+    font-size: 1.6em;
+    padding: 5px;
+    border-radius: 3%;
+    opacity: 0.6;
+    transition: 0.3s;
+    background-color: #FFF;
+}
+
+.name-habilidade p:hover{
+    background-color: #b2b2b3;
+}
+
+.text-habilidade{
+    color: #FFF;
+    width: 80%;
+    font-size: 18px;
+    line-height: 1.5;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+#habilidades-complementares{
+    color: #bdbaff;
+    font-weight: bold;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+    .menu-habilidades {
+        margin: 30px; 
+    }
+
+    .name-menu-habilidades {
+        width: 15%; 
+    }
+
+    .habilidades {
+        font-size: 80px; 
+    }
+
+    .description-habilidades {
+        width: 90%; 
+        padding: 30px; 
+    }
+
+    .name-habilidade {
+        width: 40%; 
+    }
+
+    .text-habilidade {
+        margin-bottom: 100px; 
+    }
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+    .menu-habilidades {
+        margin: 20px;
+    }
+
+    .name-menu-habilidades {
+        width: auto; 
+    }
+
+    .habilidades {
+        font-size: 60px;
+    }
+
+    .description-habilidades {
+        width: 100%; 
+        padding: 20px; 
+    }
+
+    .name-habilidade {
+        width: 100%; 
+    }
+
+    .text-habilidade {
+        margin-bottom: 50px;
+    }
+
+}

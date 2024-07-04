@@ -1,0 +1,127 @@
+/* Menu */
+.skills-container{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.menu-skills{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.name-menu-skills{
+    font-family: "Teachers", sans-serif;
+    width: 8%;
+    padding: 5px;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+    justify-content: space-between;
+    display: flex; 
+    align-items: center; 
+    
+}
+
+.name-menu-skills:hover{
+    transform: scale(1.2);
+    color: #bdbaff;
+
+}
+
+.menu-skills ion-icon {
+    color: #bdbaff;
+}
+
+/* Habilidades */
+.box-skills{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.box{
+    flex-direction: column;
+    display: flex;
+    width: 30%;
+    height: 300px;
+    margin: 20px 40px;
+    border: 3px solid #bdbaff;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.box h3{
+    color: #FFF;
+    font-size: 23px;
+    margin: 15px;
+    flex-shrink: 1;
+}
+
+.box p{
+    color: #FFF;
+    font-size: 18px;
+    text-align: center;
+    width: 80%;
+    line-height: 2;
+    flex-shrink: 1;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+    .menu-skills {
+        margin: 30px; 
+    }
+
+    .name-menu-skills {
+        width: 15%; 
+    }
+
+    .box {
+        width: 45%; 
+        margin: 20px 10px; 
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+    .menu-skills {
+        margin: 20px;
+    }
+
+    .name-menu-skills {
+        width: auto; 
+    }
+    
+    .box {
+        width: 100%; 
+        margin: 20px 0; 
+    }
+
+    .box h3 {
+        font-size: 20px;
+    }
+
+    .box p {
+        font-size: 16px; 
+        width: 90%; 
+    }
+
+}
