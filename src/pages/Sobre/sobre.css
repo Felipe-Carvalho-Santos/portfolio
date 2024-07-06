@@ -22,8 +22,6 @@
 .foto{
     width: 200px;
     border-radius: 50%;
-    border: 2px solid #EE4C3D;
-    box-shadow: 3px 3px 3px #EE4C3D;
 }
 
 .title-sobre{
@@ -35,11 +33,11 @@
 
 .description-sobre{
     color: #FFF;
-    width: 80%;
+    width: 70%;
     font-size: 18px;
     line-height: 1.5;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     margin: 50px;
 }
 

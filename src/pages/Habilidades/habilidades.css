@@ -77,14 +77,14 @@
     font-size: 1.6em;
     padding: 5px;
     border-radius: 3%;
-    opacity: 0.4;
+    opacity: 0.7;
     transition: 0.3s;
     background-color: #FFF;
 }
 
 .name-habilidade p:hover{
     background-color: #FFF;
-    opacity: 0.7;
+    opacity: 0.4;
 }
 
 .text-habilidade{

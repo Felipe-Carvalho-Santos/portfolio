@@ -20,14 +20,13 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-right: 2%;
 }
 
 .icons-home li {
     list-style: none;
-    padding: 0 10%;
     display: inline;
     align-items: center;
+    margin: 30px;
 }
 
 .icons-home li a {
@@ -62,6 +61,7 @@
     justify-content: flex-end;
     padding-bottom: 2%;
 }
+
 
 .img {
     width: 440px;
