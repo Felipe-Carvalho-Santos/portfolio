@@ -6,6 +6,7 @@ import calculadorajs from './img/calculadorajs.png';
 import jobfinder from './img/jobfinder.png';
 import quizzprogramacao from './img/quizzprogramacao.png';
 import netlipe from './img/netlipe.png';
+import tarefas from './img/tarefas.png';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -18,10 +19,26 @@ function Projetos() {
             <div className='container-projetos'>
 
             <div className='projeto'>
+                    <div className='photo-projeto'><img src={tarefas} alt="Organizando tarefas" className='img-projeto' /></div>
+                    <div className='info-projeto'>
+                        <p className='title-projeto'>Organizando Tarefas</p>
+                        <p className='description-projeto'>Feito com JavaScript,<br/>React, Firebase,<br/> HTML,<br/> CSS<br/>📝</p>
+                    </div>
+                    <div className='icons-projetos'>
+                        <nav>
+                            <ul>
+                                <li><a href='https://organizando-tarefas.vercel.app/' target='_blank'><ion-icon name="globe-outline" title="Site"></ion-icon>Site</a></li>
+                                <li><a href='https://github.com/Felipe-Carvalho-Santos/organizando-tarefas' target='_blank'><ion-icon name="logo-github" title="Repositório"></ion-icon>Github</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+            </div>    
+
+            <div className='projeto'>
                     <div className='photo-projeto'><img src={netlipe} alt="netlipe" className='img-projeto' /></div>
                     <div className='info-projeto'>
-                        <p className='title-projeto'>Netlipe</p>
-                        <p className='description-projeto'>Feito com React,<br/>Api, JavaScript,<br/> HTML,<br/> CSS<br/>🎥🎬</p>
+                        <p className='title-projeto'>Netlipe Filmes</p>
+                        <p className='description-projeto'>Feito com JavaScript,<br/>React, Api,<br/> HTML,<br/> CSS<br/>🎥🎬</p>
                     </div>
                     <div className='icons-projetos'>
                         <nav>
@@ -37,7 +54,7 @@ function Projetos() {
                     <div className='photo-projeto'><img src={cronometro} alt="cronometo" className='img-projeto' /></div>
                     <div className='info-projeto'>
                         <p className='title-projeto'>Cronomêtro</p>
-                        <p className='description-projeto'>Feito com React,<br/>JavaScript,<br/> HTML,<br/> CSS<br/>🚀🏃🏻‍♂️</p>
+                        <p className='description-projeto'>Feito com JavaScript,<br/>React,<br/> HTML,<br/> CSS<br/>🚀🏃🏻‍♂️</p>
                     </div>
                     <div className='icons-projetos'>
                         <nav>
@@ -53,7 +70,7 @@ function Projetos() {
                     <div className='photo-projeto'><img src={biscoito} alt="biscoito" className='img-projeto' /></div>
                     <div className='info-projeto'>
                         <p className='title-projeto'>Biscoito da Sorte</p>
-                        <p className='description-projeto'>Feito com React,<br/>JavaScript,<br/> HTML,<br/> CSS<br/>🥠</p>
+                        <p className='description-projeto'>Feito com JavaScript,<br/>React,<br/> HTML,<br/> CSS<br/>🥠</p>
                     </div>
                     <div className='icons-projetos'>
                         <nav>
@@ -92,22 +109,6 @@ function Projetos() {
                             <ul>
                                 <li><a href='https://quizz-programacao-six.vercel.app/' target='_blank'><ion-icon name="globe-outline" title="Site"></ion-icon>Site</a></li>
                                 <li><a href='https://github.com/Felipe-Carvalho-Santos/quizz-programacao' target='_blank'><ion-icon name="logo-github" title="Repositório"></ion-icon>Github</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-
-                <div className='projeto'>
-                    <div className='photo-projeto'><img src={jobfinder} alt="job finder" className='img-projeto' /></div>
-                    <div className='info-projeto'>
-                        <p className='title-projeto'>Job Finder</p>
-                        <p className='description-projeto'>Feito com JavaScript,<br/>Express, Node.Js,<br/> Handlebars,<br/> HTML e CSS<br/>📢</p>
-                    </div>
-                    <div className='icons-projetos'>
-                        <nav>
-                            <ul>
-                                
-                                <li><a href='https://github.com/Felipe-Carvalho-Santos/jobfinder' target='_blank'><ion-icon name="logo-github" title="Repositório"></ion-icon>Github</a></li>
                             </ul>
                         </nav>
                     </div>
