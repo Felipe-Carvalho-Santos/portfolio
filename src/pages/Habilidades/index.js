@@ -26,7 +26,7 @@ function Habilidades() {
                         <p id='habilidades-complementares'>Habilidades complementares:</p><br/>
                         Adobe Photoshop<br/>
                         Microsoft Office<br/>
-                        Inglês Basico (Cursando)<br/><br/>
+                        Inglês Básico (Cursando)<br/><br/>
                         Com estudos intensivos, meu objetivo principal é explorar novas ferramentas além do desenvolvimento front-end e ampliar meu espectro de conhecimentos na área de programação. 🚀</p>
                 </div>
         </div>

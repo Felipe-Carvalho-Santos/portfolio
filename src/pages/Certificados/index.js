@@ -18,7 +18,7 @@ function Certificados() {
                         </p>
                     </div>
                     <div className='btn-certificado'>
-                        <a href='' className='button'>Certificado</a>
+                        <a href='https://www.udemy.com/certificate/UC-1d9de9d6-96b9-4c31-ab49-7b6adb622f6e/' target='_blank' className='button'>Certificado</a>
                     </div>
 
                 </div>

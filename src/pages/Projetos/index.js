@@ -7,6 +7,7 @@ import jobfinder from './img/jobfinder.png';
 import quizzprogramacao from './img/quizzprogramacao.png';
 import netlipe from './img/netlipe.png';
 import tarefas from './img/tarefas.png';
+import sistemachamados from './img/sistemachamados.png';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -17,6 +18,22 @@ function Projetos() {
         <div className='projetos-container'>
             <h1 className='title-section'>Projetos</h1>
             <div className='container-projetos'>
+
+            <div className='projeto'>
+                    <div className='photo-projeto'><img src={sistemachamados} alt="Sistema de Chamados" className='img-projeto' /></div>
+                    <div className='info-projeto'>
+                        <p className='title-projeto'>Sitema de Chamados</p>
+                        <p className='description-projeto'>Feito com JavaScript,<br/>React, Firebase,<br/> HTML,<br/> CSS<br/>👩🏽‍💻</p>
+                    </div>
+                    <div className='icons-projetos'>
+                        <nav>
+                            <ul>
+                                <li><a href='https://sistema-chamados-tan.vercel.app/' target='_blank'><ion-icon name="globe-outline" title="Site"></ion-icon>Site</a></li>
+                                <li><a href='https://github.com/Felipe-Carvalho-Santos/sistema-chamados' target='_blank'><ion-icon name="logo-github" title="Repositório"></ion-icon>Github</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+            </div>        
 
             <div className='projeto'>
                     <div className='photo-projeto'><img src={tarefas} alt="Organizando tarefas" className='img-projeto' /></div>
