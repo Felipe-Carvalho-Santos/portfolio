@@ -17,29 +17,59 @@
     margin-top: 5%;
     justify-content: center;
     text-align: center;
+
+    position: relative;
 }
 
 .name-menu-sobre{
     font-family: "Teachers", sans-serif;
-    width: 80%;
-    padding: 5px;
+    padding: 5px 25px;
     font-size: 22px;
     text-align: center;
     text-decoration: none;
-    color: #FFF;
+    color: #444444;
     cursor: pointer;
     justify-content: center;
     display: flex; 
     align-items: center; 
-    
+}
+
+
+.animated-border {
+    position: relative;
+    border: solid transparent;
+    border-width: 2px 0;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+.animated-border:hover {
+    border-color: #2978B5;
+}
+
+.animated-border::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Ajuste para alinhar com a borda inferior */
+    width: 0;
+    height: 2px;
+    background-color: #2978B5;
+    transition: width 0.3s ease-out;
+}
+
+.animated-border:hover::after {
+    width: 100%;
 }
 
 .name-menu-sobre:hover{
     transform: scale(1.2);
-    color: #EE4C3D;
+    color: #2978B5;
+    font-weight: 500;
 
 }
 
 .menu-sobre ion-icon {
-    color: #EE4C3D;
+    color: #2978B5;
+    padding: 10px;
 }
+

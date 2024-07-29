@@ -4,12 +4,14 @@
 }
 /* Sub-menu */
 .sub-menu {
-    width: 100%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -20,6 +22,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    margin-top: 1em;
 }
 
 .icons-home li {
@@ -55,29 +58,62 @@
 
 /* Sub-menu2 */
 .sub-menu2 {
-    width: 100%;
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    padding-bottom: 2%;
+    align-items: flex-start;
+    margin-left: 20%;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
 }
 
-
-.img {
-    width: 440px;
-    margin-right: 20%;
-    background: none;
+.sub-menu2 h2 {
+    font-size: 4em;
+    font-weight: bold;
+    color: #444444;
+    margin-bottom: 0.5em;
+    animation: imagem 1s ease
+    alternate infinite;
 }
+
+@keyframes imagem { 
+    to { transform: translateY(30px); 
+    } 
+}
+
+.sub-menu2 h3 {
+    font-size: 2em;
+    color: #444444;
+}
+
+.sub-menu2 .name-color {
+    color: #2978B5;
+    font-weight: bold;
+
+}    
+
 
 /* Responsividade */
 
 @media (max-width: 768px) {
-    
-    
-    .img {
-        width: 200px;
+
+    .sub-menu2 {
+        width: 90%;
+        display: flex;
+        text-align: center;
+        margin: auto;
+        flex-wrap: wrap;
     }
 
+    .sub-menu2 h2 {
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+
+    .sub-menu2 h3 {
+        font-size: 1em;
+        margin: auto;
+    }
 
     .icons-home{
         height: 60px;
@@ -89,6 +125,26 @@
 }
 
 @media (max-width: 576px) {
+
+
+
+    .sub-menu2 {
+        width: 90%;
+        display: flex;
+        text-align: center;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+
+    .sub-menu2 h2 {
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+
+    .sub-menu2 h3 {
+        font-size: 1em;
+        margin: auto;
+    }
 
     .icons-home li a {
         font-size: 35px;

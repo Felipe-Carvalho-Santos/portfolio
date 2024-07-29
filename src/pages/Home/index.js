@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import marioluigi from './img/marioluigi.png';
+
 import './home.css';
 
 function Home() {
@@ -32,7 +33,9 @@ function Home() {
             </div>
 
             <div className='sub-menu2'>
-                <img src={marioluigi} alt="trabalhando" className='img'/>
+                <h2>Olá, eu sou o <span class="name-color">Felipe Carvalho</span>.</h2>
+                <br></br>
+                <h3>Desenvolvedor</h3>
             </div>
 
         </div>

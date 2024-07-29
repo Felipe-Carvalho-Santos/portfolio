@@ -1,7 +1,7 @@
 
 /* PROJETOS */
 .title-section{
-    color: #EE4C3D;
+    color: #2978B5;
     font-size: 45px;
     align-items: center;
     justify-content: center;
@@ -23,13 +23,19 @@
 .projeto {
     width: 400px;
     margin: 0 30px;
-    border: 4px solid #272727;
+    box-shadow: 0 8px 16px 4px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+
+.projeto:hover{
+    transform: scale(1.1);
 }
 
 .photo-projeto {
@@ -67,7 +73,7 @@
 
 .title-projeto {
     text-align: center;
-    color: #FFF;
+    color: #444444;
     font-weight: bold;
     font-size: 22px;
     margin: 10px;
@@ -83,7 +89,7 @@
     box-sizing: border-box;
     text-align: center;
     font-size: 18px;
-    color: #FFF;
+    color: #444444;
     max-width: 100%;
     overflow-wrap: break-word;
 }
@@ -96,7 +102,7 @@
     align-items: center;
     margin-top: 10px;
     padding: 15px 0;
-    border-top: 0.5px solid #272727;
+    border-top: 0.5px solid #444444;
 }
 
 .icons-projetos li{
@@ -107,7 +113,7 @@
 
 .icons-projetos li a{
     font-size: 20px;
-    color: #FF931E;
+    color: #2978B5;
     transition: 0.3s;
     cursor: pointer;
     text-decoration: none;
@@ -123,7 +129,8 @@
 
     .projeto {
         width: 300px;
-        margin: 0 15px;
+        margin: 15px;
+        
     }
 
     .icons-projetos li {
@@ -138,7 +145,7 @@
 
     .projeto {
         width: 250px; 
-        margin: 0 10px; 
+        margin: 10px; 
     }
 
     .icons-projetos li {
