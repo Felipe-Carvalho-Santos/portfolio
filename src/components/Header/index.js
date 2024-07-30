@@ -6,6 +6,7 @@ function Header(){
     return(
         <div className='menu-sobre'>
                 <Link to="/" className='name-menu-sobre animated-border'><ion-icon name="home-outline"></ion-icon>Home</Link>
+                <div className='corner'></div>
                 <Link to="/Sobre" className='name-menu-sobre animated-border'><ion-icon name="person-outline"></ion-icon>Sobre mim</Link>
                 <Link to="/habilidades" className='name-menu-sobre animated-border'><ion-icon name="rocket-outline"></ion-icon>Habilidades</Link>
                 <Link to="/skills" className='name-menu-sobre animated-border'><ion-icon name="bulb-outline"></ion-icon>Soft Skills</Link>

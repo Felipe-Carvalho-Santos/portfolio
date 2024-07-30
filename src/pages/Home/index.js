@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import marioluigi from './img/marioluigi.png';
 
 import './home.css';
 
