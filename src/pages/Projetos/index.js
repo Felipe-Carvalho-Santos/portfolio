@@ -1,13 +1,12 @@
 import './projetos.css';
-import coming from './img/coming.png';
 import cronometro from './img/cronometro.png';
 import biscoito from './img/biscoito.png';
 import calculadorajs from './img/calculadorajs.png';
-import jobfinder from './img/jobfinder.png';
 import quizzprogramacao from './img/quizzprogramacao.png';
 import netlipe from './img/netlipe.png';
 import tarefas from './img/tarefas.png';
 import sistemachamados from './img/sistemachamados.png';
+import consultacep from './img/consultacep.png';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -18,6 +17,22 @@ function Projetos() {
         <div className='projetos-container'>
             <h1 className='title-section'>Projetos</h1>
             <div className='container-projetos'>
+
+            <div className='projeto'>
+                    <div className='photo-projeto'><img src={consultacep} alt="Consulta Cep" className='img-projeto' /></div>
+                    <div className='info-projeto'>
+                        <p className='title-projeto'>Consulta CEP</p>
+                        <p className='description-projeto'>Feito com JavaScript,<br/>utlizando AJAX/API.<br/> HTML,<br/> CSS<br/>📍</p>
+                    </div>
+                    <div className='icons-projetos'>
+                        <nav>
+                            <ul>
+                                <li><a href='https://consultacep-gamma.vercel.app/' target='_blank'><ion-icon name="globe-outline" title="Site"></ion-icon>Site</a></li>
+                                <li><a href='https://github.com/Felipe-Carvalho-Santos/consultacep' target='_blank'><ion-icon name="logo-github" title="Repositório"></ion-icon>Github</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+            </div>            
 
             <div className='projeto'>
                     <div className='photo-projeto'><img src={sistemachamados} alt="Sistema de Chamados" className='img-projeto' /></div>
