@@ -24,6 +24,19 @@ function Certificados() {
                 </div>
                 <div className='certificado'>
                     <div className='description-certificado'>
+                        <h3><ion-icon name="ribbon-outline"></ion-icon>JavaScript Ninja</h3>
+                        <p>Instituição: Udemy<br/>
+                            Instrutor: Fernando Daciuk<br/>
+                            Ano de conclusão: 2024
+                        </p>
+                    </div>
+                    <div className='btn-certificado'>
+                        <a href='https://www.udemy.com/certificate/UC-8f717a19-5e83-44f1-b44b-9be6066f779f/' target='_blank' className='button'>Certificado</a>
+                    </div>
+
+                </div>
+                <div className='certificado'>
+                    <div className='description-certificado'>
                         <h3><ion-icon name="ribbon-outline"></ion-icon>JavaScript (c/ Node.js)</h3>
                         <p>Instituição: Udemy<br/>
                             Instrutor: Matheus Battisti<br/>
